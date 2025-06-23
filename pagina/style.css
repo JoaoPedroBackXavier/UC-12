@@ -1,0 +1,74 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#container-pai1{
+    background-color:rgb(34, 34, 34);
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+#container-pai2{
+    gap: 100px;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#container-pai3{
+    gap: 100px;
+    background-color: rgb(136, 136, 136);
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#seção1{
+    background-image: url(imageim_LE_upscale_balanced_x4.jpg);
+    background-size: contain;
+    height: 790px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#divS1{
+    border-radius: 10px;
+    padding: 50px;
+    gap: 30px;
+    background-color: rgba(187, 201, 112, 0.815);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#botao1{
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgb(57, 177, 107);
+}
+
+#seção2{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    height:auto;
+}
+
+.card{
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    border-radius: 3px;
+    align-items: center;
+    border: 5px solid rgb(68, 18, 18);
+}

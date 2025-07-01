@@ -72,3 +72,67 @@
     align-items: center;
     border: 5px solid rgb(68, 18, 18);
 }
+
+#secaoForm{
+    background-image: url(section3_LE_upscale_balanced_x4.jpg);
+    background-size: contain;
+    height: 655px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#form{
+    background-color: rgba(0, 0, 0, 0.6);
+    gap: 15px;
+    padding: 15px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button{
+    color: white;
+    background-color: cornflowerblue;
+    border: 2px solid blue;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px;
+    width: 180px;
+}
+button:hover{
+    background-color: rgb(38, 38, 238);
+    border: 2px solid cornflowerblue;
+}
+
+.imagemGrande{
+    height: 75px;
+    width: 150px;
+    margin-left: 15px;
+}
+
+#secaoTabel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(background_LE_upscale_balanced_x4.jpg);
+    background-size: contain;
+    height: 710px;
+}
+
+#secaoTabel table{
+    background-color: rgba(0, 0, 0, 0.514);
+    border-collapse: collapse;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 15px;
+    overflow: hidden;
+
+}
+
+th,td{
+    border: 3px solid rgb(0, 0, 0);
+}

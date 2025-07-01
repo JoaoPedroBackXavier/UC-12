@@ -1,0 +1,14 @@
+#container table{
+    border-collapse: collapse;
+    width: 100%;
+}
+td{
+    border: 1px solid black;
+}
+tr{
+    border: 1px solid black;
+}
+th{
+    background-color: rgb(145, 145, 145);
+    border: 1px solid black;
+}

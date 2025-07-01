@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:'Times New Roman', Times, serif;
+}
+
+#form-container{
+    background-color: black;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#form-container form{
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    border-radius: 10px;
+    width: 22%;
+    border: 5px solid rgb(143, 143, 143);
+    gap: 15px;
+}
+
+textarea{
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+button{
+    background-color:cornflowerblue;
+    border: 3px solid rgb(77, 116, 187);
+    height: 40px;
+    font-size: 150%;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color:rgb(77, 116, 187);
+    border: 3px solid cornflowerblue;
+}

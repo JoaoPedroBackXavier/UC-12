@@ -1,0 +1,16 @@
+#divComPx{
+    width: 200px;
+    height: 100px;
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#divCom50porCento{
+    height: 100px;
+    width: 50%;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+}
